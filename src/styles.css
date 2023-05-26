@@ -1,3 +1,49 @@
+:root {
+  --primary-color: rgb(197, 19, 80);
+  --primary-color-light: rgba(197, 19, 80, 0.3);
+  --secondary-color: #f07810;
+  --tertiary-color: #eec60a;
+  --quarternary-color: #f5f4e8;
+}
+
 body {
-  font-family: "Kanit", sans-serif;
+  font-family: "Bitter", serif;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 96px;
+}
+
+h2 {
+  font-family: "Inter", sans-serif;
+  font-weight: bold;
+  font-size: 36px;
+}
+
+h3 {
+  font-weight: 300;
+}
+
+.hero {
+  padding: 100px 0;
+  text-align: center;
+  background-color: var(--primary-color-light);
+}
+
+.btn {
+  padding: 20px;
+  font-family: "Inter", sans serif;
+  font-weight: bold;
+}
+
+.btn-primary {
+  background-color: var(--primary-color);
+  border: var(--primary-color) 1px solid;
+}
+
+.btn-primary:hover {
+  background-color: var(--quarternary-color);
+  color: var(--primary-color);
+  border: var(--primary-color) 1px solid;
 }
