@@ -3,7 +3,7 @@
   --primary-color-light: rgba(197, 19, 80, 0.3);
   --secondary-color: #fc9c3d;
   --secondary-color-light: rgba(255, 169, 82, 0.5);
-  --quarternary-color: #f5f4e8;
+  --quarternary-color: rgb(245, 244, 232);
 }
 
 body {
@@ -12,8 +12,9 @@ body {
 }
 
 .navbar {
-  margin: 0 25px;
+  padding: 10px 25px;
   font-family: "Bitter", serif;
+  background-color: rgba(245, 244, 232, 0.3);
 }
 
 h1 {
@@ -83,34 +84,35 @@ h3 {
   border: var(--primary-color) 1px solid !important;
 }
 
-.content-container .btn-primary {
+.project-container .btn-primary {
   background-color: var(--secondary-color);
   border: var(--secondary-color) 1px solid;
 }
 
-.content-container .btn-primary:hover {
+.project-container .btn-primary:hover {
   background-color: var(--quarternary-color);
   color: var(--secondary-color);
   border: var(--secondary-color) 1px solid;
 }
 
-.content-container .btn-primary:active {
+.project-container .btn-primary:active {
   background-color: var(--secondary-color) !important;
   border: var(--secondary-color) 1px solid !important;
   color: var(--quarternary-color);
 }
 
-.content-container {
+.content-container,
+.project-container {
   max-width: 900px;
   margin-bottom: 100px !important;
 }
 
-.content-container a {
-  color: var(--secondary-color);
-}
-
 .link-container {
   margin-bottom: 40px;
+}
+
+.link-container a {
+  color: var(--secondary-color);
 }
 
 footer a {
