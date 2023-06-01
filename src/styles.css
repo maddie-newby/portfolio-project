@@ -3,8 +3,6 @@
   --primary-color-light: rgba(197, 19, 80, 0.3);
   --secondary-color: #fc9c3d;
   --secondary-color-light: rgba(255, 169, 82, 0.5);
-  --tertiary-color: #eec60a;
-  --tertiary-color-light: rgba(238, 198, 10, 0.5);
   --quarternary-color: #f5f4e8;
 }
 
@@ -13,17 +11,22 @@ body {
   background-color: var(--quarternary-color);
 }
 
+.navbar {
+  margin: 0 25px;
+  font-family: "Bitter", serif;
+}
+
 h1 {
   font-family: "Bitter", serif;
   font-weight: bold;
   font-size: 96px;
 }
 
-.about-container h1 {
+.content-container h1 {
   font-size: 60px;
 }
 
-.about-container h3 {
+.content-container h3 {
   font-size: 18px;
   font-weight: 800;
 }
@@ -38,20 +41,23 @@ h3 {
   font-weight: 300;
 }
 
+.img-portrait {
+  max-width: 400px;
+}
+
 .hero {
-  padding: 100px 10px;
+  padding: 125px 10px 100px;
   text-align: center;
   background-color: var(--primary-color-light);
 }
 
-.hero-about {
+.hero-content {
   padding: 100px 10px;
   background-color: var(--secondary-color-light);
 }
 
-.hero-work {
-  padding: 100px 10px;
-  background-color: var(--tertiary-color-light);
+.hero-content h1 {
+  font-size: 60px;
 }
 
 .btn {
@@ -77,24 +83,24 @@ h3 {
   border: var(--primary-color) 1px solid !important;
 }
 
-.about-container .btn-primary {
+.content-container .btn-primary {
   background-color: var(--secondary-color);
   border: var(--secondary-color) 1px solid;
 }
 
-.about-container .btn-primary:hover {
+.content-container .btn-primary:hover {
   background-color: var(--quarternary-color);
   color: var(--secondary-color);
   border: var(--secondary-color) 1px solid;
 }
 
-.about-container .btn-primary:active {
+.content-container .btn-primary:active {
   background-color: var(--secondary-color) !important;
   border: var(--secondary-color) 1px solid !important;
   color: var(--quarternary-color);
 }
 
-.project-container {
+.content-container {
   max-width: 900px;
   margin-bottom: 100px !important;
 }
@@ -107,6 +113,10 @@ footer a {
 footer a:hover {
   cursor: pointer;
   text-decoration: underline;
+}
+
+.content-link {
+  color: var(--secondary-color);
 }
 
 @media (max-width: 719px) {
@@ -142,5 +152,13 @@ footer a:hover {
 
   .col-12 {
     padding: 0 20px;
+  }
+
+  .img-portrait {
+    display: none;
+  }
+
+  .projects-button {
+    margin: 0 auto;
   }
 }
