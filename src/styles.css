@@ -9,6 +9,7 @@
 
 body {
   font-family: "Inter", sans-serif;
+  background-color: var(--quarternary-color);
 }
 
 h1 {
@@ -56,6 +57,7 @@ h3 {
 .btn-primary {
   background-color: var(--primary-color);
   border: var(--primary-color) 1px solid;
+  color: var(--quarternary-color);
 }
 
 .btn-primary:hover {
