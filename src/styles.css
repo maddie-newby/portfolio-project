@@ -4,6 +4,7 @@
   --secondary-color: #fc9c3d;
   --secondary-color-light: rgba(255, 169, 82, 0.5);
   --tertiary-color: #eec60a;
+  --tertiary-color-light: rgba(238, 198, 10, 0.5);
   --quarternary-color: #f5f4e8;
 }
 
@@ -46,6 +47,11 @@ h3 {
 .hero-about {
   padding: 100px 10px;
   background-color: var(--secondary-color-light);
+}
+
+.hero-work {
+  padding: 100px 10px;
+  background-color: var(--tertiary-color-light);
 }
 
 .btn {
