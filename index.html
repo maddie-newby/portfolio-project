@@ -1,121 +1,203 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Learn about Maddie's journey on the SheCodes courses"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Inter:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/src/styles.css" />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/bb61764bd5.js"
+      crossorigin="anonymous"
+    ></script>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Learn about Maddie's journey on the SheCodes courses" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Inter:wght@500&display=swap"
-    rel="stylesheet" />
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous" />
-  <link rel="stylesheet" href="/src/styles.css" />
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
-    crossorigin="anonymous"></script>
-  <script src="https://kit.fontawesome.com/bb61764bd5.js" crossorigin="anonymous"></script>
+    <title>Madison Newby - SheCodes Portfolio</title>
+  </head>
 
-  <title>Madison Newby - SheCodes Portfolio</title>
-</head>
-
-<body>
-  <nav class="navbar navbar-expand-lg fixed-top">
-    <a class="navbar-brand" href="index.html" title="Home">Maddie Newby</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="/index.html" title="Home">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/about.html" title="About">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/work.html" title="Work">Work</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/contact.html" title="Contact">Contact</a>
-        </li>
-      </ul>
+  <body>
+    <nav class="navbar navbar-expand-lg fixed-top">
+      <a class="navbar-brand" href="index.html" title="Home">Maddie Newby</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a
+              class="nav-link active"
+              aria-current="page"
+              href="/index.html"
+              title="Home"
+              >Home</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/about.html" title="About">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/work.html" title="Work">Work</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/contact.html" title="Contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="hero">
+      <h2 class="p-3">👋 Hi! I am</h2>
+      <h1 class="p-3">Madison Newby</h1>
+      <h3 class="p-3">Front-end developer based in Bristol, UK</h3>
+      <a class="btn btn-primary mt-5" href="mailto:madison1999@hotmail.co.uk"
+        >Contact me</a
+      >
     </div>
-  </nav>
-  <div class="hero">
-    <h2 class="p-3">👋 Hi! I am</h2>
-    <h1 class="p-3">Madison Newby</h1>
-    <h3 class="p-3">Front-end developer based in Bristol, UK</h3>
-    <a class="btn btn-primary mt-5" href="mailto:madison1999@hotmail.co.uk">Contact me</a>
-  </div>
-  <div class="homepage-content">
-    <p class="text-center m-5">
-      Take a look at the projects I have completed as part of the SheCodes
-      course:
-    </p>
-    <div class="content-container m-auto ps-4 pe-4">
-      <div class="row mb-5">
-        <div class="col-6 d-none d-sm-block">
-          <img src="images/yoga-app.png" class="img-fluid rounded homepage-img" alt="Yoga app screenshot" />
-        </div>
-        <div class="col-12 d-flex flex-column col-sm-6 d-sm-block">
-          <h2 class="mb-3">Yoga app</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Perferendis quia, dignissimos nam ratione veniam quibusdam porro
-            omnis quam vel eos eveniet alias temporibus deserunt veritatis
-            minima fugiat explicabo eum dolore.
-          </p>
-          <div class="mt-5">
-            <a href="#" class="btn btn-primary launch-button" title="Yoga app">Launch Yoga App</a>
+    <div class="homepage-content">
+      <p class="text-center m-5">
+        Take a look at the projects I have completed as part of the SheCodes
+        course:
+      </p>
+      <div class="content-container m-auto ps-4 pe-4">
+        <div class="row mb-5">
+          <div class="col-6 d-none d-sm-block">
+            <img
+              src="images/yoga-app.png"
+              class="img-fluid rounded homepage-img"
+              alt="Yoga app screenshot"
+            />
+          </div>
+          <div class="col-12 d-flex flex-column col-sm-6 d-sm-block">
+            <h2 class="mb-3">Yoga app</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Perferendis quia, dignissimos nam ratione veniam quibusdam porro
+              omnis quam vel eos eveniet alias temporibus deserunt veritatis
+              minima fugiat explicabo eum dolore.
+            </p>
+            <div class="mt-5">
+              <a href="#" class="btn btn-primary launch-button" title="Yoga app"
+                >Launch Yoga App</a
+              >
+            </div>
           </div>
         </div>
-      </div>
-      <div class="row mb-5">
-        <div class="col-12 d-flex flex-column col-sm-6 d-sm-block">
-          <h2 class="mb-3">Weather app</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Perferendis quia, dignissimos nam ratione veniam quibusdam porro
-            omnis quam vel eos eveniet alias temporibus deserunt veritatis
-            minima fugiat explicabo eum dolore.
-          </p>
-          <div class="mt-5">
-            <a href="#" class="btn btn-primary launch-button" title="Weather app">Launch Weather App</a>
+        <div class="row mb-5">
+          <div class="col-12 d-flex flex-column col-sm-6 d-sm-block">
+            <h2 class="mb-3">Weather app</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Perferendis quia, dignissimos nam ratione veniam quibusdam porro
+              omnis quam vel eos eveniet alias temporibus deserunt veritatis
+              minima fugiat explicabo eum dolore.
+            </p>
+            <div class="mt-5">
+              <a
+                href="#"
+                class="btn btn-primary launch-button"
+                title="Weather app"
+                >Launch Weather App</a
+              >
+            </div>
+          </div>
+          <div class="col-6 d-none d-sm-block">
+            <img
+              src="images/weather-app.png"
+              class="img-fluid rounded homepage-img"
+              alt="Weather app screenshot"
+            />
           </div>
         </div>
-        <div class="col-6 d-none d-sm-block">
-          <img src="images/weather-app.png" class="img-fluid rounded homepage-img" alt="Weather app screenshot" />
-        </div>
-      </div>
-      <div class="row mb-5">
-        <div class="col-6 d-none d-sm-block">
-          <img src="images/yogurt-app.png" class="img-fluid rounded homepage-img" title="Yoghurt app screenshot" />
-        </div>
-        <div class="col-12 d-flex flex-column col-sm-6 d-sm-block">
-          <h2 class="mb-3">Yogurt app</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Perferendis quia, dignissimos nam ratione veniam quibusdam porro
-            omnis quam vel eos eveniet alias temporibus deserunt veritatis
-            minima fugiat explicabo eum dolore.
-          </p>
-          <div class="mt-5">
-            <a href="#" class="btn btn-primary launch-button" title="Yoghurt app">Launch Yoghurt App</a>
+        <div class="row mb-5">
+          <div class="col-6 d-none d-sm-block">
+            <img
+              src="images/yogurt-app.png"
+              class="img-fluid rounded homepage-img"
+              title="Yoghurt app screenshot"
+            />
+          </div>
+          <div class="col-12 d-flex flex-column col-sm-6 d-sm-block">
+            <h2 class="mb-3">Yogurt app</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Perferendis quia, dignissimos nam ratione veniam quibusdam porro
+              omnis quam vel eos eveniet alias temporibus deserunt veritatis
+              minima fugiat explicabo eum dolore.
+            </p>
+            <div class="mt-5">
+              <a
+                href="#"
+                class="btn btn-primary launch-button"
+                title="Yoghurt app"
+                >Launch Yoghurt App</a
+              >
+            </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
-  <footer class="text-center m-5">
-    This was coded by Madison Newby and is
-    <a href="https://github.com/maddie-newby/portfolio-project" target="_blank" title="GitHub link">openly-sourced
-      on GitHub</a>.
-  </footer>
-</body>
-
+    <footer class="text-center m-5 d-flex flex-column">
+      <a
+        href="mailto:madison1999@hotmail.co.uk"
+        class="email-link"
+        title="Email"
+        >madison1999@hotmail.co.uk</a
+      >
+      <span class="contact-links">
+        <a
+          href="https://github.com/maddie-newby"
+          target="_blank"
+          title="GitHub link"
+          ><i class="fa-brands fa-github" style="color: #c51350"></i></a
+        ><a
+          href="https://www.instagram.com/maddie_newby/"
+          target="_blank"
+          title="Instagram link"
+          ><i class="fa-brands fa-instagram" style="color: #c51350"></i
+        ></a>
+        <a
+          href="https://www.linkedin.com/in/madison-newby-481520147/"
+          target="_blank"
+          title="LinkedIn link"
+        >
+          <i class="fa-brands fa-linkedin" style="color: #c51350"></i
+        ></a>
+      </span>
+      <span>
+        This was coded by Madison Newby and is
+        <a
+          href="https://github.com/maddie-newby/portfolio-project"
+          target="_blank"
+          title="GitHub link"
+          >openly-sourced on GitHub</a
+        >.</span
+      >
+    </footer>
+  </body>
 </html>
