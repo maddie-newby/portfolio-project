@@ -53,7 +53,7 @@ h3 {
 }
 
 .hero-content {
-  padding: 100px 10px;
+  padding: 125px 10px 100px;
   background-color: var(--secondary-color-light);
 }
 
@@ -105,6 +105,11 @@ h3 {
 .project-container {
   max-width: 900px;
   margin-bottom: 100px !important;
+}
+
+.projects-button {
+  max-width: -moz-fit-content;
+  max-width: fit-content;
 }
 
 .link-container {
@@ -166,6 +171,30 @@ footer a:hover {
   color: var(--secondary-color);
 }
 
+@media (max-width: 1102px) {
+  .img-portrait {
+    display: none;
+  }
+
+  .about-title {
+    font-size: 24px;
+  }
+
+  .about-title,
+  .about-subtitle {
+    text-align: center;
+  }
+
+  .projects-button {
+    margin: 0 auto;
+  }
+
+  .project-container {
+    display: flex !important;
+    justify-content: center;
+  }
+}
+
 @media (max-width: 719px) {
   h1 {
     font-size: 64px;
@@ -175,7 +204,6 @@ footer a:hover {
 @media (max-width: 575px) {
   h1 {
     font-size: 48px;
-    line-height: 1.5;
   }
 
   h2 {
@@ -201,11 +229,11 @@ footer a:hover {
     padding: 0 20px;
   }
 
-  .img-portrait {
-    display: none;
+  footer a {
+    font-size: 16px;
   }
 
-  .projects-button {
-    margin: 0 auto;
+  .email-link {
+    font-size: 16px;
   }
 }
