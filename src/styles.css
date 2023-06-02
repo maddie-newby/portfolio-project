@@ -133,6 +133,15 @@ i {
   padding: 10px;
 }
 
+.content-footer i {
+  color: var(--secondary-color);
+}
+
+.content-footer i:hover {
+  background-color: var(--secondary-color);
+  color: var(--quarternary-color);
+}
+
 i:hover {
   background-color: var(--primary-color);
   color: var(--quarternary-color) !important;
@@ -146,6 +155,11 @@ footer a {
 footer a:hover {
   cursor: pointer;
   text-decoration: underline;
+}
+
+.content-footer a {
+  color: var(--secondary-color);
+  text-decoration: none;
 }
 
 .content-link {
