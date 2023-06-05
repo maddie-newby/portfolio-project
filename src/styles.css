@@ -53,12 +53,17 @@ h3 {
 }
 
 .hero-content {
-  padding: 125px 10px 100px;
+  padding: 125px 50px 100px;
   background-color: var(--secondary-color-light);
+  gap: 20px;
 }
 
 .hero-content h1 {
   font-size: 60px;
+}
+
+.font-weight-bold {
+  font-weight: bold !important;
 }
 
 .btn {
@@ -123,6 +128,8 @@ h3 {
 .email-link {
   font-size: 24px;
   padding-bottom: 20px;
+  width: fit-content;
+  align-self: center;
 }
 
 .contact-links {
@@ -171,27 +178,25 @@ footer a:hover {
   color: var(--secondary-color);
 }
 
-@media (max-width: 1102px) {
+@media (max-width: 850px) {
   .img-portrait {
     display: none;
   }
 
-  .about-title {
-    font-size: 24px;
+  .about-hero-content {
+    flex-direction: column;
+    width: fit-content;
+    width: -moz-fit-content;
+    text-align: center;
+    margin: 0 25px !important;
   }
 
-  .about-title,
-  .about-subtitle {
-    text-align: center;
+  .about-hero-content p {
+    margin-bottom: 50px;
   }
 
   .projects-button {
     margin: 0 auto;
-  }
-
-  .project-container {
-    display: flex !important;
-    justify-content: center;
   }
 }
 
