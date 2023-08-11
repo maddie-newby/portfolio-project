@@ -106,8 +106,7 @@ h3 {
   color: var(--quarternary-color);
 }
 
-.content-container,
-.project-container {
+.content-container {
   max-width: 900px;
   margin-bottom: 100px !important;
 }
@@ -115,6 +114,7 @@ h3 {
 .projects-button {
   max-width: -moz-fit-content;
   max-width: fit-content;
+  padding-bottom: 20px;
 }
 
 .link-container {
